@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: ajay048/kubernetes-project:v20
+        image: ajay048/kubernetes-project:v23
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
