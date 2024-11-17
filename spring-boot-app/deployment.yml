@@ -1,4 +1,4 @@
-apiVersion: apps/v1
+apiVersion: apps/v281
 kind: Deployment
 metadata:
   name: spring-boot-app
@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: ajay048/kubernetes-project:v23
+        image: ajay048/kubernetes-project:v2823
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
