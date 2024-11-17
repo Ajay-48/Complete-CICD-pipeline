@@ -1,22 +1,22 @@
-apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: spring-boot-app
-  labels:
-    app: spring-boot-app
-spec:
-  replicas: 2
-  selector:
-    matchLabels:
-      app: spring-boot-app
-  template:
-    metadata:
-      labels:
-        app: spring-boot-app
-    spec:
-      containers:
-      - name: spring-boot-app
-        image: ajay048/kubernetes-project:v41
-        imagePullPolicy: Always
-        ports:
-        - containerPort: 8080
+v43av43pv43iv43Vv43ev43rv43sv43iv43ov43nv43:v43 v43av43pv43pv43sv43/v431v43v43
+v43kv43iv43nv43dv43:v43 v43Dv43ev43pv43lv43ov43yv43mv43ev43nv43tv43v43
+v43mv43ev43tv43av43dv43av43tv43av43:v43v43
+v43 v43 v43nv43av43mv43ev43:v43 v43sv43pv43rv43iv43nv43gv43-v43bv43ov43ov43tv43-v43av43pv43pv43v43
+v43 v43 v43lv43av43bv43ev43lv43sv43:v43v43
+v43 v43 v43 v43 v43av43pv43pv43:v43 v43sv43pv43rv43iv43nv43gv43-v43bv43ov43ov43tv43-v43av43pv43pv43v43
+v43sv43pv43ev43cv43:v43v43
+v43 v43 v43rv43ev43pv43lv43iv43cv43av43sv43:v43 v432v43v43
+v43 v43 v43sv43ev43lv43ev43cv43tv43ov43rv43:v43v43
+v43 v43 v43 v43 v43mv43av43tv43cv43hv43Lv43av43bv43ev43lv43sv43:v43v43
+v43 v43 v43 v43 v43 v43 v43av43pv43pv43:v43 v43sv43pv43rv43iv43nv43gv43-v43bv43ov43ov43tv43-v43av43pv43pv43v43
+v43 v43 v43tv43ev43mv43pv43lv43av43tv43ev43:v43v43
+v43 v43 v43 v43 v43mv43ev43tv43av43dv43av43tv43av43:v43v43
+v43 v43 v43 v43 v43 v43 v43lv43av43bv43ev43lv43sv43:v43v43
+v43 v43 v43 v43 v43 v43 v43 v43 v43av43pv43pv43:v43 v43sv43pv43rv43iv43nv43gv43-v43bv43ov43ov43tv43-v43av43pv43pv43v43
+v43 v43 v43 v43 v43sv43pv43ev43cv43:v43v43
+v43 v43 v43 v43 v43 v43 v43cv43ov43nv43tv43av43iv43nv43ev43rv43sv43:v43v43
+v43 v43 v43 v43 v43 v43 v43-v43 v43nv43av43mv43ev43:v43 v43sv43pv43rv43iv43nv43gv43-v43bv43ov43ov43tv43-v43av43pv43pv43v43
+v43 v43 v43 v43 v43 v43 v43 v43 v43iv43mv43av43gv43ev43:v43 v43av43jv43av43yv430v434v438v43/v43kv43uv43bv43ev43rv43nv43ev43tv43ev43sv43-v43pv43rv43ov43jv43ev43cv43tv43:v434v431v43v43
+v43 v43 v43 v43 v43 v43 v43 v43 v43iv43mv43av43gv43ev43Pv43uv43lv43lv43Pv43ov43lv43iv43cv43yv43:v43 v43Av43lv43wv43av43yv43sv43v43
+v43 v43 v43 v43 v43 v43 v43 v43 v43pv43ov43rv43tv43sv43:v43v43
+v43 v43 v43 v43 v43 v43 v43 v43 v43-v43 v43cv43ov43nv43tv43av43iv43nv43ev43rv43Pv43ov43rv43tv43:v43 v438v430v438v430v43v43
